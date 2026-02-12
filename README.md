@@ -307,14 +307,17 @@ button {
 <body>
 
 <!-- 🎶 Música -->
-<audio autoplay loop>
+<audio id="musica" loop>
   <source src="iris-goo-goo-dolls.mpeg" type="audio/mpeg">
 </audio>
 
+<button onclick="document.getElementById('musica').play()">
+  💖 Tocar nossa música
+</button>
 <section class="hero">
   <div>
     <h1>Sabrina e Deborah</h1>
-    <p>Feliz 8 meses de noivado, de muito amor e companheirismo.</p>
+    <p>Feliz 8 meses de noivado, de muito amor e companheirismo</p>
     <!-- 📸 Carrossel -->
     <div class="carousel">
       <div class="carousel-track">
