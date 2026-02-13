@@ -13,19 +13,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(180deg, #3b000c, #120005);
   color: #fff;
   overflow-x: hidden;
-
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 /* ---------- SEÇÃO PRINCIPAL ---------- */
 section {
   min-height: 100vh;
@@ -34,16 +31,13 @@ section {
   justify-content: center;
   padding: 32px;
 }
-
 .hero {
   text-align: center;
 }
-
 .pedido-final {
   text-align: center;
   margin-top: 50px;
 }
-
 .pergunta {
   font-size: 1.4rem;
   color: #ffd1dc;
@@ -56,12 +50,10 @@ section {
   color: #ffd1dc;
   margin-bottom: 12px;
 }
-
 .hero p {
   font-size: 1.1rem;
   opacity: 0.9;
 }
-
 /* ---------- CARROSSEL ---------- */
 .carousel {
   width: 100%;
@@ -71,23 +63,19 @@ section {
   box-shadow: 0 20px 40px rgba(0,0,0,0.5);
   margin: 32px auto;
 }
-
 .carousel-track {
   display: flex;
   animation: slide 70s ease-in-out infinite;
 }
-
 .carousel img {
   width: 320px;
   height: 420px;
   object-fit: cover;
 }
-
 @keyframes slide {
   0% { transform: translateX(0); }
   100% { transform: translateX(-7040px); } /* 22 fotos */
 }
-
 /* ---------- FRASES ---------- */
 .phrases {
   display: grid;
@@ -96,7 +84,6 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
-
 .phrase-card {
   background: rgba(255,255,255,0.08);
   backdrop-filter: blur(10px);
@@ -105,17 +92,14 @@ section {
   text-align: center;
   box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
-
 .phrase-card img {
   width: 100%;
   border-radius: 16px;
   margin-bottom: 12px;
 }
-
 .phrase-card p {
   font-size: 1.05rem;
 }
-
 /* ---------- BOTÕES ---------- */
 .buttons {
   margin-top: 32px;
@@ -123,7 +107,6 @@ section {
   gap: 20px;
   justify-content: center;
 }
-
 button {
   padding: 14px 28px;
   border: none;
@@ -131,18 +114,15 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
-
 #yes {
   background: #e60026;
   color: #fff;
 }
-
 #no {
   background: #fff;
   color: #e60026;
   position: relative;
 }
-
 /* ---------- TELA FINAL ---------- */
 .final-screen {
   position: fixed;
@@ -153,7 +133,6 @@ button {
   justify-content: center;
   z-index: 999;
 }
-
 .final-card {
   background: rgba(255,255,255,0.08);
   backdrop-filter: blur(14px);
@@ -163,44 +142,37 @@ button {
   text-align: center;
   box-shadow: 0 30px 60px rgba(0,0,0,0.35);
 }
-
 .final-card h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2.2rem;
   color: #ffe6ec;
   margin-bottom: 12px;
 }
-
 .final-card p {
   font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 12px;
 }
-
 .signature {
   margin-top: 20px;
   font-size: 1.1rem;
   color: #ffd1dc;
 }
-
 /* ---------- ANIMAÇÕES ---------- */
 .fade-text {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeInUp 1.4s forwards;
 }
-
 .delay-1 { animation-delay: 0.6s; }
 .delay-2 { animation-delay: 1.2s; }
 .delay-3 { animation-delay: 1.8s; }
-
 @keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 /* ---------- CORAÇÕES ---------- */
 .heart {
   position: fixed;
@@ -210,7 +182,6 @@ button {
   transform: rotate(45deg);
   animation: float 4s linear forwards;
 }
-
 .heart::before,
 .heart::after {
   content: "";
@@ -220,10 +191,8 @@ button {
   background: red;
   border-radius: 50%;
 }
-
 .heart::before { top: -8px; left: 0; }
 .heart::after { left: -8px; top: 0; }
-
 @keyframes float {
   from {
     opacity: 1;
@@ -236,57 +205,45 @@ button {
 }
 /* ---------- AJUSTES PARA CELULAR ---------- */
 @media (max-width: 768px) {
-
   .hero h1 {
     font-size: 1.9rem;
   }
-
   .hero p {
     font-size: 1rem;
   }
-
   .carousel {
     max-width: 260px;
   }
-
   .carousel img {
     width: 260px;
     height: 360px;
   }
-
   .phrases {
     grid-template-columns: 1fr;
     gap: 18px;
   }
-
   .phrase-card p {
     font-size: 1rem;
   }
-
   .buttons {
     flex-direction: column;
   }
-
   button {
     width: 100%;
     max-width: 260px;
     margin: 0 auto;
     font-size: 1.1rem;
   }
-
   .final-card {
     padding: 32px 22px;
     margin: 0 16px;
   }
-
   .final-card h1 {
     font-size: 1.8rem;
   }
-
   .final-card p {
     font-size: 1.05rem;
   }
-
 /* RODAPÉ */
  .rodape {
   background: #8b0000; /* vermelho mais claro que o fundo */
@@ -295,21 +252,16 @@ button {
   font-size: 0.8rem;
   color: #ffd6de;
   margin-top: 80px;
-
 }
-
 }
-
 </style>
 </head>
-
 <body>
-
 <!-- 🎶 Música -->
 <audio id="bgMusic" loop>
   <source src="iris-goo-goo-dolls.mp3" type="audio/mpeg">
 </audio>
-
+  
 <button onclick="document.getElementById('musica').play()">
   💖 Tocar nossa música
 </button>
