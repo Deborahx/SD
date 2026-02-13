@@ -314,12 +314,14 @@ button {
 <div class="final-screen" id="final">
   <div class="final-card">
     <h1 class="fade-text">Sabrina Emanuelle,</h1>
-    <p class="fade-text delay-1">
+    
+<p class="fade-text delay-1">
       Meu bem querer, quis escrever isso só pra te lembrar (mais uma vez) do quanto eu sou louca por você. Quero que você nunca, em momento nenhum (pfvr), duvide do que sinto por você.
       Eu escolho você todos os dias da minha vida, nos detalhes bestas e nos momentos de caos.
       Fico pensando em tudo que a gente já viveu... naquelas noites de filmes/séries que a gente perde a hora (mesmo tendo que acordar cedo), nos nossos joguinhos e em cada date nosso. Cada janta, cada toque seu e cada vez que eu te vejo sorrir com o olinho meio fechado, eu sinto que me apaixono todos os dias de um jeito novo por você. 
     </p>
-    <p class="fade-text delay-2">
+  
+  <p class="fade-text delay-2">
       Obrigada por tantos momentos especiais, por ser minha parceira, por dividir a vida comigo e por dizer <strong>SIM</strong> pra nossa linda história.
       Eu amo você hoje, amanhã e sempre.
     </p>
